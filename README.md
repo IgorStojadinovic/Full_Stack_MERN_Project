@@ -1,1 +1,1 @@
-Full_Stack_MERN_Project Work in progress. Server and MongoDB Connection is done.
+Full Stack MERN Project Work in progress. Server and MongoDB Connection and Controllers are setup.

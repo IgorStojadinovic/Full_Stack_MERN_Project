@@ -28,6 +28,10 @@ const noteSchema = new mongoose.Schema(
 );
 
 //Pluging for auto increments
-notesSchema.plugin(AutoInchement,inc_field: 'ticket',id: "ticketNums",start_seq:500);
+noteSchema.plugin(AutoIncrement, {
+  inc_field: "ticket",
+  id: "ticketNums",
+  start_seq: 500,
+});
 
 module.exports = mongoose.model("Note", noteSchema);

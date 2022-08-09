@@ -5,7 +5,7 @@ const useSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
-  passowrd: {
+  password: {
     type: String,
     required: true,
   },
@@ -21,4 +21,4 @@ const useSchema = new mongoose.Schema({
   },
 });
 
-module.exports = mongoose.model("User", userSchema);
+module.exports = mongoose.model("User", useSchema);
